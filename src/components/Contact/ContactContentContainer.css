@@ -1,0 +1,31 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    height: 93.5vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+};
+.contact-container-content{
+    display: flex;
+    flex-direction: column;
+}
+.contact-container-cnontactme{
+    flex-direction: column;
+    margin: 3rem;
+}
+.contact-container-followme{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+.contact-container-content div h4{
+    color: rgba(255, 255, 255, 0.397); 
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.contact-container-links{
+  padding: 1.5rem;
+}
