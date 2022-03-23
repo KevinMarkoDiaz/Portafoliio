@@ -2,18 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 35vh;
-    background-color: rgb(0, 0, 0);
+    height: 93.5vh;
+    background-color: rgb(0, 0, 0);    
 }
 .list-skills-title-about{
     border: 3px solid #000;
-    width: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1000ms;
+    background-color: rgba(0, 0, 0, 0.555);
 }
 .list-skills-title-about:hover{
     border-bottom: 3px solid rgb(0, 212, 250);
-    width: 35%;
-    transition: 1000ms;
+    width: 25%;
 }
 .list-skills-subtitle-about{
     font-size: 2rem;
@@ -26,15 +31,15 @@
     letter-spacing: 1px;
 }
 .list-skills-image-about{
-    background-color: rgb(0, 0, 0);
     width: 50%;
-    height: 80%;
+    height: auto;
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr;
     margin: 1rem;
     border-radius: 8px;
+    z-index: 2000;
 }
 .skills-item-container-about{
     display: flex;
@@ -43,5 +48,3 @@
     height: 3.5rem;
     margin: 1rem;   
 };
-
-

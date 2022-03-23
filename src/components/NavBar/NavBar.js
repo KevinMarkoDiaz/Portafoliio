@@ -6,9 +6,9 @@ import './NavBar.css';
 export const NavBar = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nan-bar-container'>
         <Container>
-          <Navbar.Brand href="#home">Kevin Marko Diaz</Navbar.Brand>
+          <Navbar.Brand >Kevin Marko Diaz</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">

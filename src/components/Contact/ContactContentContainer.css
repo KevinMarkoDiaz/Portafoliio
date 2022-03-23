@@ -22,9 +22,10 @@
     margin: 3rem;
 }
 .contact-container-content div h4{
-    color: rgba(255, 255, 255, 0.397); 
+    color: rgb(141, 141, 141); 
     letter-spacing: 2px;
     font-weight: 700;
+    z-index: 200;
 }
 .contact-container-links{
   padding: 1.5rem;

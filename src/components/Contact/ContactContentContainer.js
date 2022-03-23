@@ -8,7 +8,7 @@ export const ContactContentContainer = () => {
   return (
     <div className='contact-container'>
       <div className='contact-container-content'>
-        <div className='contact-container-cnontactme'>
+        <div className='contact-container-cnontactme animate__animated animate__fadeInLeft'>
           <h4>
             Contact me
           </h4>
@@ -17,7 +17,7 @@ export const ContactContentContainer = () => {
             <p>{<MdPhoneIphone/>} +54 9 11 2539 6717</p>
           </div>
         </div>
-        <div className='contact-container-followme'>
+        <div className='contact-container-followme animate__animated animate__fadeInLeft'>
           <h4>
             Follow me on my social networks
           </h4>

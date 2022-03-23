@@ -16,11 +16,11 @@ const technicalSkillsImage = [
 export const NextSkills = () => {
   return (
     <div className='list-skills-container-about'>
-      <div className='list-skills-title-about'>
+      <div className='list-skills-title-about animate__animated animate__fadeInLeft'>
         <p className='list-skills-subtitle-about'>
           I am learning</p>
       </div>
-      <div className='list-skills-image-about'>
+      <div className='list-skills-image-about animate__animated animate__zoomIn animate__slower'>
         {
           technicalSkillsImage.map((skill, index) => {
             console.log(skill.image)

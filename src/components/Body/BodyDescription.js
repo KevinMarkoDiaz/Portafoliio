@@ -3,8 +3,8 @@ import './BodyDescription.css';
 
 export const BodyDescription = () => {
   return (
-    <div className='description-container'>
-        <div className='description-content-container'>
+    <div className='description-container '>
+        <div className='description-content-container animate__animated animate__fadeInUp '>
             <div className='description-content-name'>
                 <h2>Kevin Marko Diaz</h2>
             </div>

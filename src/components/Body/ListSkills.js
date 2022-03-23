@@ -1,58 +1,81 @@
 import React from 'react'
+import { SiBootstrap, SiCss3, SiHtml5, SiJavascript, SiJquery, SiMaterialui, SiReact, SiSass } from 'react-icons/si';
+
 import './ListSkills.css'
-
-import imgBootstrap from '../../static/logo-bt.png';
-import imgCss from '../../static/logo-css.png';
-import imgHtml from '../../static/logo-html.png';
-import imgJq from '../../static/logo-jq.png';
-import imgJs from '../../static/logo-js.png';
-import imgReact from '../../static/logo-react.png';
-
- const technicalSkillsImage = [
-    {
-        image:imgCss
-    },
-    {
-        image:imgBootstrap
-    },    
-    {
-        image:imgHtml
-    },    
-    {
-        image:imgJq
-    },    
-    {
-        image:imgJs
-    },    
-    {
-        image:imgReact
-    }    
-]
 
 export const ListSkills = () => {
   return (
     <div className='list-skills-container'>
-      <div className='list-skills-title'>
+      <div className='list-skills-title animate__animated animate__fadeInUp animate__faster'>
         <p className='list-skills-subtitle'>Technical skills</p>
         <p className='list-skills-p'>
           Technologies in which I develop
         </p>
       </div>
-      <div className='list-skills-image'>
-        {
-          technicalSkillsImage.map((skill, index) => {
-            console.log(skill.image)
-            return (
-              <div className='skills-item-container' key={index}>
-              <img
-              className='skills-item-container-img'
-                src={skill.image}
-                alt='Img tecnology'
-              />
-            </div>
-            )
-          })
-        }
+      <div className='list-skills-image animate__animated animate__fadeInUp animate__faster'>
+        <div>
+          <span aria-hidden="true">
+            JavaScript
+          </span>
+          <span  >
+            <SiJavascript />
+          </span>
+        </div>
+        <div>
+          <span aria-hidden="true">
+            React
+          </span>
+          <span  >
+            <SiReact />
+          </span>
+        </div>
+        <div>
+          <span aria-hidden="true">
+            Bootstrap
+          </span>
+          <span  >
+            <SiBootstrap />
+          </span>
+        </div>
+        <div>
+          <span aria-hidden="true">
+            CSS
+          </span>
+          <span  >
+            <SiCss3 />
+          </span>
+        </div>
+        <div>
+          <span aria-hidden="true">
+            MaterialUi
+          </span>
+          <span  >
+            <SiMaterialui />
+          </span>
+        </div>        
+        <div>
+          <span aria-hidden="true">
+            Sass
+          </span>
+          <span  >
+            <SiSass />
+          </span>
+        </div>
+        <div>
+          <span aria-hidden="true">
+            JQuery
+          </span>
+          <span  >
+            <SiJquery />
+          </span>
+        </div>
+        <div>
+          <span aria-hidden="true">
+            HTML          </span>
+          <span  >
+            <SiHtml5 />
+          </span>
+        </div>
       </div>
     </div>
   )
