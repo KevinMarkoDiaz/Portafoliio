@@ -1,7 +1,7 @@
 import React from 'react';
-import './ContactContentContainer.css';
 import { MdEmail, MdPhoneIphone } from 'react-icons/md';
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import './ContactContentContainer.css';
 
 
 export const ContactContentContainer = () => {
