@@ -1,0 +1,4 @@
+.grid__column{
+    display: flex; 
+    flex-direction: column;   
+}

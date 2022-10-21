@@ -1,0 +1,45 @@
+.app__container{
+    width: auto;
+    margin: 2vw;
+}
+.grid__container{
+    display: flex;
+    justify-content: space-between;
+}
+.grid__button--container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.grid__button--container div{
+    display: flex;
+}
+.grid__button{
+    background-color: #000;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+    margin: 1rem 4rem; 
+    transition: 200ms; 
+    color: #ffe600;   
+}
+.grid__button p{
+   
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.grid__button:hover{
+    background-color: #ffe600; 
+    color: #000;
+}
+.generation{
+    margin: 2rem;
+    font-size: 1.3rem;
+    border-bottom: 3px solid #ffe600;
+    letter-spacing: 1px;
+    font-weight: 700;
+}

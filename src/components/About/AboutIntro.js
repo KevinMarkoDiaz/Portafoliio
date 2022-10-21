@@ -7,8 +7,8 @@ export const AboutIntro = () => {
   return (
     <>
      <div className='about-description-container'>
-        <div className='about-description-img2 animate__animated animate__zoomIn animate__slower'>
-                <img src={iconWeb} alt="logo React.js" />
+        <div className='about-description-img2 backgroun-blur '>
+                <img src={iconWeb} alt="logo React.js" className='animate__animated animate__zoomIn animate__slower' />
         </div>
         <div className='about-description-text animate__animated animate__fadeInRight'>
 

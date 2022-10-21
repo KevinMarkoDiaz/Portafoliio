@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(0, 0, 15);
+    background-color: rgb(100, 100, 100);
     z-index: 200;
     padding: 0px 1rem;
 }
@@ -51,7 +51,7 @@
 }
 .footer-content-nav-link{
     padding-left: 0.5rem;
-    border: 2px solid rgb(0, 0, 15);;
+    border: 2px solid  rgb(100, 100, 100);
     text-decoration: none;
     color: rgba(255, 255, 255, 0.397);
     letter-spacing: 2px; 
@@ -60,7 +60,7 @@
 }
 .footer-content-nav-link-about{
     padding-left: 0.5rem;
-    border: 2px solid rgb(0, 0, 22);;
+    border: 2px solid  rgb(100, 100, 100);
     text-decoration: none;
     color: rgba(255, 255, 255, 0.397);
     letter-spacing: 2px; 
@@ -68,19 +68,19 @@
     transition: 300ms;
 }
 .footer-content-nav-link-about:hover{
-    border-left:2px solid rgb(0, 212, 250);
-    color: rgb(0, 212, 250);
+    border-left:2px solid #ffe600;
+    color: #ffe600;
 }
 .footer-content-nav-link:hover{
-    border-left:2px solid rgb(0, 212, 250);
-    color: rgb(0, 212, 250);
+    border-left:2px solid #ffe600;
+    color: #ffe600;
 }
 
 .socialmedia-icons{
     transition: 300ms;
 }
 .socialmedia-icons:hover{
-    color: rgb(0, 212, 250);
+    color: #ffe600;
 }
 .footer-container-category-link ul{
     display: flex;
@@ -100,7 +100,7 @@
     transition: 300ms;
 }
 .footer-container-category-links:hover{
-    color: rgb(0, 212, 250);
+    color: #ffe600;
 }
 
 @media  screen and (min-width: 320px) and (max-width: 425px) { 

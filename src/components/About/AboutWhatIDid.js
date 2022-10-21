@@ -24,8 +24,8 @@ export const AboutWhatIDid = () => {
                     link so you can look a little of my code.
                 </p>
             </div>
-            <div className='about-description-img animate__animated animate__zoomIn animate__slower '>
-                <img src={reactEco} alt="logo React.js" />
+            <div className='about-description-img backgroun-blur  '>
+                <img src={reactEco} alt="logo React.js"  className='animate__animated animate__zoomIn animate__slower'/>
             </div>
 
         </div>

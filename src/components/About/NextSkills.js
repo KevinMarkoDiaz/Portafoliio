@@ -1,41 +1,36 @@
 import React from 'react'
 import './NextSkills.css'
-
 import mongo from '../../static/mongo.png';
 import node from '../../static/node.png';
 
-const technicalSkillsImage = [
-  {
-    image: mongo
-  },
-  {
-    image: node
-  },
-]
 
 export const NextSkills = () => {
   return (
-    <div className='list-skills-container-about'>
-      <div className='list-skills-title-about animate__animated animate__fadeInLeft'>
-        <p className='list-skills-subtitle-about'>
-          I am learning</p>
+    <div className='about-description-container'>
+
+      <div className='about-description-text animate__animated animate__fadeInLeft'>
+
+        <h5 className='about-description-text-title'>
+
+          The skills I'm learning
+
+        </h5>
+        <p className='about-description-text-contain'>
+          I am learning technologies that allow me to perform in the backend area, as a language
+          I use JavaScript, supported by Node.js and express to work with servers
+        </p>
+        <p className='about-description-text-contain'>
+        Regarding databases, as a first instance,
+         I find myself learning Mongo DB to enter the world
+          of relational databases.
+
+        </p>
       </div>
-      <div className='list-skills-image-about animate__animated animate__zoomIn animate__slower'>
-        {
-          technicalSkillsImage.map((skill, index) => {
-            console.log(skill.image)
-            return (
-              <div className='skills-item-container-about' key={index}>
-                <img
-                  className='skills-item-container-img-about'
-                  src={skill.image}
-                  alt='Img tecnology'
-                />
-              </div>
-            )
-          })
-        }
+      <div className='about-description-img backgroun-blur  '>
+        <img src={node} alt="logo React.js" className='animate__animated animate__zoomIn animate__slower' />
+        <img src={mongo} alt="logo React.js" className='animate__animated animate__zoomIn animate__slower' />
       </div>
+
     </div>
   )
 }

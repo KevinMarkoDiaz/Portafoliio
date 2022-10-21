@@ -1,32 +1,62 @@
-.contact-container{
+.contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding-top: 4rem;
     height: 93.5vh;
     width: 100%;
-    background-color: #000;
-    color: #fff;
-};
-.contact-container-content{
+    background-image: url("../../static/blur.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+;
+
+.contact-container-content {
     display: flex;
     flex-direction: column;
 }
-.contact-container-cnontactme{
+
+.contact-container-cnontactme {
     flex-direction: column;
     margin: 3rem;
 }
-.contact-container-followme{
+
+.contact-container-followme {
     display: flex;
     flex-direction: column;
     margin: 3rem;
 }
-.contact-container-content div h4{
-    color: rgb(141, 141, 141); 
+
+.contact-container-content div h4 {
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
     font-weight: 700;
     z-index: 200;
+    font-size: 3rem;
 }
-.contact-container-links{
-  padding: 1.5rem;
+
+.contact-container-links {
+    padding: 1.5rem;
+}
+
+.sidebar-image {
+    height: 25vh;
+    background-color: #ffe600;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar-image-img {
+    transition: 200ms;
+    height: 6rem;
+    width: 6rem;
+}
+
+.sidebar-image-img:hover {
+    margin-bottom: 0.5rem;
 }
