@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b94d6d1.css",
+    "main.js": "/static/js/main.12536d1c.js",
+    "static/media/blur.jpg": "/static/media/blur.221fffbeb72f11f5fff8.jpg",
+    "static/media/store.png": "/static/media/store.81a9c4e0c3b471d1235f.png",
+    "static/media/mfcstore.png": "/static/media/mfcstore.506b8f48ea6122a4b8c1.png",
+    "static/media/node.png": "/static/media/node.9157392393340a68c946.png",
+    "static/media/js.png": "/static/media/js.13204e5bc7cb2109ecfc.png",
+    "static/media/conway.png": "/static/media/conway.4d7a25d54f301b60ae4c.png",
+    "static/media/mongo.png": "/static/media/mongo.36b99d6cff774fc63d20.png",
+    "static/media/icon-web.png": "/static/media/icon-web.63311ee5d852ee7fd94f.png",
+    "static/media/react-eco.png": "/static/media/react-eco.ac14d2f265d39f14fb97.png",
+    "static/media/redux.png": "/static/media/redux.072f09eb37f518ca074f.png",
+    "static/media/login.png": "/static/media/login.c80c6ccfa38f3cf85f41.png",
+    "index.html": "/index.html",
+    "main.1b94d6d1.css.map": "/static/css/main.1b94d6d1.css.map",
+    "main.12536d1c.js.map": "/static/js/main.12536d1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b94d6d1.css",
+    "static/js/main.12536d1c.js"
+  ]
+}
